@@ -1,0 +1,54 @@
+.ipynb_checkpoints/
+__pycache__/
+*.zip
+
+images/
+annotations/
+results/
+external/
+.DS_Store
+
+MatlabAPI/analyze*/
+MatlabAPI/visualize*/
+
+PythonAPI/pycocotools/__init__.pyc
+PythonAPI/pycocotools/_mask.c
+PythonAPI/pycocotools/_mask.so
+PythonAPI/pycocotools/coco.pyc
+PythonAPI/pycocotools/cocoeval.pyc
+PythonAPI/pycocotools/mask.pyc
+
+# Exclude data and model files
+/data/
+/models/
+
+# Exclude checkpoints and logs
+/checkpoints/
+/logs/
+
+# Exclude temporary files
+/temp/
+
+# Exclude environment-specific files
+/venv/
+/.vscode/
+/.idea/
+
+# Exclude generated files
+/generated/
+
+# Exclude configuration files with sensitive information
+/configs/secrets.yaml
+
+# Exclude IDE-related files
+/.vscode/
+.idea/
+
+# Exclude system files
+.DS_Store
+Thumbs.db
+
+# Exclude generated documentation
+/docs/
+
+Tensorflow/workspace/images/
